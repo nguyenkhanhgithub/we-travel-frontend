@@ -1,11 +1,5 @@
 #!/usr/bin/env groovy
 node {
-    agent {
-        docker {
-            image 'node:16-alpine'
-            args '-p 3000:3000'
-        }
-    }
  properties([disableConcurrentBuilds()])
  try {
    namespace = "default"

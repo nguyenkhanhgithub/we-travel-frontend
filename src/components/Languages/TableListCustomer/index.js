@@ -1,0 +1,33 @@
+export const english = {
+    txtEnterName: 'Enter name',
+    txtGender: 'Gender',
+    txtMale: 'Male',
+    txtFemale: 'Female',
+    txtOther: 'Other',
+    txtLoginEmail: 'Login email',
+    txtFirstName: 'First name',
+    txtLastName: 'Last name',
+    txtStatus: 'Status',
+    txtActive: 'Active',
+    txtBlocked: 'Blocked',
+    txtAction: 'Action',
+    txtView: 'View',
+    txtBlock: 'Block',
+}
+
+export const vietnamese = {
+    txtEnterName: 'Nhập tên',
+    txtGender: 'Giới tính',
+    txtMale: 'Nam',
+    txtFemale: 'Nữ',
+    txtOther: 'Khác',
+    txtLoginEmail: 'Email đăng nhập',
+    txtFirstName: 'Tên',
+    txtLastName: 'Họ',
+    txtStatus: 'Trạng thái',
+    txtActive: 'Kích hoạt',
+    txtBlocked: 'Đã khoá',
+    txtAction: 'Lựa chọn',
+    txtView: 'Xem',
+    txtBlock: 'Khoá',
+}

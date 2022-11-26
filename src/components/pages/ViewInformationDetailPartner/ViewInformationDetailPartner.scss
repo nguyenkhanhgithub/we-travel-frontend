@@ -1,0 +1,31 @@
+.bd-top-none {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.short-information-service-partner {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.mb-5-px {
+    margin-bottom: 5px;
+}
+
+.item-service {
+    background-color: white;
+    box-shadow: 0px 1px 2px gray;
+}
+
+.br-bottom-5 {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.text-link {
+    cursor: pointer;
+    color: rgb(123, 159, 255);
+}

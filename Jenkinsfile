@@ -1,18 +1,18 @@
 #!/usr/bin/env groovy
 node {
- agent {
-    docker {
-        image 'maven:3-alpine'
-        args '-v $HOME/.m2:/root/.m2'
+    agent {
+        docker {
+            image 'node:16-alpine'
+            args '-p 3000:3000'
+        }
     }
- }
  properties([disableConcurrentBuilds()])
  try {
    namespace = "default"
    projectId = "c-kzd9h:p-vd76s"
-   deployment = "kafka-producer-processor"
+   deployment = "we-travel-frontend"
    dockerFile = "Dockerfile"
-   imageName = "kafka-producer-processor"
+   imageName = "we-travel-frontend"
    registry = "chjplove"
    version = "latest"
    stage('Checkout Branch') {
